@@ -134,7 +134,7 @@ namespace AuthorizationServer
                 // branch.UseJwtBearerAuthentication(new JwtBearerOptions
                 // {
                 //     Authority = "http://localhost:54540/",
-                //     Audience = "resource_server",
+                //     Audience = "resource-server",
                 //     RequireHttpsMetadata = false,
                 //     TokenValidationParameters = new TokenValidationParameters
                 //     {
@@ -150,8 +150,8 @@ namespace AuthorizationServer
                 // branch.UseOAuthIntrospection(options =>
                 // {
                 //     options.Authority = new Uri("http://localhost:54540/");
-                //     options.Audiences.Add("resource_server");
-                //     options.ClientId = "resource_server";
+                //     options.Audiences.Add("resource-server");
+                //     options.ClientId = "resource-server";
                 //     options.ClientSecret = "875sqd4s5d748z78z7ds1ff8zz8814ff88ed8ea4z4zzd";
                 //     options.RequireHttpsMetadata = false;
                 // });
